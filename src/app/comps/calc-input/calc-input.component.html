@@ -1,0 +1,48 @@
+<h1>CASIO</h1>
+<div class="input">
+    <input [value]="num" />
+
+    
+</div>
+
+
+<div class="buttons">
+<div>
+    <button class="button" (click)="myCalc('1')">1</button>
+     <button class="button" (click)="myCalc('2')">2</button>
+    <button class="button" (click)="myCalc('3')">3</button>
+    <button class="button" (click)="myCalc('*')">*</button> 
+
+
+</div>
+<div>
+        <button class="button" (click)="myCalc('4')">4</button>
+        <button class="button" (click)="myCalc('5')">5</button>
+        <button class="button" (click)="myCalc('6')">6</button>
+        <button class="button" (click)="myCalc('/')">/</button>
+
+
+</div>
+<div>   <button class="button" (click)="myCalc('7')">7</button>
+        <button class="button" (click)="myCalc('8')">8</button>
+        <button class="button" (click)="myCalc('9')">9</button>
+        <button class="button" (click)="myCalc('+')">+</button>
+
+
+</div>
+<div>
+        <button class="button" (click)="myCalc('0')">0</button>
+        <button class="button" (click)="myCalc('=')">=</button>
+        <button class="button" (click)="myCalc('.')">.</button>
+        <button class="button" (click)="myCalc('-')">-</button>
+    
+    
+    </div>
+    <button class="buttonCA" (click)="myCalc('CA')">AC</button>
+
+
+</div>
+<button class="buttonCA" (click)="myHistory()">history</button>
+
+
+
